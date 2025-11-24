@@ -42,9 +42,8 @@ FOR wa IN it_table WHERE ( condition )
 ```abap
 FOR idx = 1 WHILE idx <= 10
 ```
-  
-  
-
+&nbsp;
+&nbsp;
 ### 예시 1
 **BEFORE**  
 ```abap
@@ -56,7 +55,7 @@ FOR idx = 1 WHILE idx <= 10
   
 	 LT_TABLE = CORRESPONDING #( LT_FILE ).
 ```
-
+&nbsp;
 **AFTER 1**  
 ```abap
   LT_FILE = VALUE #( BASE LT_FILE FOR LS_SELECT IN LT_SELECT
@@ -64,15 +63,14 @@ FOR idx = 1 WHILE idx <= 10
                    
   LT_TABLE = CORRESPONDING #( LT_FILE ). 
 ```
-
+&nbsp;
 **AFTER 2**  
 ```abap
 LT_TABLE = VALUE #( BASE LT_TABLE FOR LS_SELECT IN LT_SELECT
                         ( CORRESPONDING #( LS_SELECT ) ) ).
 ```
-
-
-  
+&nbsp;
+&nbsp;
 ### 예시 2
 **BEFORE**  
 ```abap
@@ -92,6 +90,7 @@ LT_TABLE = VALUE #( BASE LT_TABLE FOR LS_SELECT IN LT_SELECT
     ENDLOOP.
   ENDLOOP.
 ```
+&nbsp;
 **AFTER**  
 ```abap
   LT_TABLE = VALUE #( BASE LT_TABLE FOR LS_SELECT IN LT_SELECT
