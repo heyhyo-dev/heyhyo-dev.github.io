@@ -16,9 +16,9 @@ date: 2025-11-24
 last_modified_at: 2025-11-24
 ---
 
-## ✅ BASE
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/35393e8e-fb00-4ad5-b54e-82c6134787ac" />
 
+## ✅ BASE
 
 ### 개념
 - 기존 테이블의 내용을 유지하면서 새 항목을 추가하는 데 사용되는 구문
