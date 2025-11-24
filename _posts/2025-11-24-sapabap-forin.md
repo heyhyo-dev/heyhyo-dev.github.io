@@ -25,6 +25,8 @@ last_modified_at: 2025-11-24
 - 내부 테이블을 순회(iteration) 하여 새로운 값(구조, 테이블, 필드, 문자열 등)을 생성하는 표현식 기반 반복문
 - VALUE, COND, REDUCE 등과 함께 사용된다.
 
+
+
 ### 기본 문법
 1. 내부 테이블 순회  
 ```abap
@@ -40,6 +42,8 @@ FOR wa IN it_table WHERE ( condition )
 ```abap
 FOR idx = 1 WHILE idx <= 10
 ```
+  
+  
 
 ### 예시 1
 **BEFORE**  
@@ -67,6 +71,8 @@ LT_TABLE = VALUE #( BASE LT_TABLE FOR LS_SELECT IN LT_SELECT
                         ( CORRESPONDING #( LS_SELECT ) ) ).
 ```
 
+
+  
 ### 예시 2
 **BEFORE**  
 ```abap
@@ -95,5 +101,5 @@ LT_TABLE = VALUE #( BASE LT_TABLE FOR LS_SELECT IN LT_SELECT
                         ( CORRESPONDING #( LS_TR ) ) ).
 ```
 > 이중 LOOP도 FOR IN으로 간결하게 가능하다.  
-> APPEND 할 필요 없이 알아서 된다. 
+> APPEND 할 필요 없이 알아서 된다.  
 ---
