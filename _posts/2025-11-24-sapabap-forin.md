@@ -41,9 +41,10 @@ FOR wa IN it_table WHERE ( condition )
 3. 인덱스 기반
 ```abap
 FOR idx = 1 WHILE idx <= 10
-```
+```  
 &nbsp;
 &nbsp;
+
 ### 예시 1
 **BEFORE**  
 ```abap
@@ -54,23 +55,26 @@ FOR idx = 1 WHILE idx <= 10
   ENDLOOP.
   
 	 LT_TABLE = CORRESPONDING #( LT_FILE ).
-```
+```  
 &nbsp;
+
 **AFTER 1**  
 ```abap
   LT_FILE = VALUE #( BASE LT_FILE FOR LS_SELECT IN LT_SELECT
                    ( LS_SELECT ) ).
                    
   LT_TABLE = CORRESPONDING #( LT_FILE ). 
-```
+```  
 &nbsp;
+
 **AFTER 2**  
 ```abap
 LT_TABLE = VALUE #( BASE LT_TABLE FOR LS_SELECT IN LT_SELECT
                         ( CORRESPONDING #( LS_SELECT ) ) ).
-```
+```  
 &nbsp;
 &nbsp;
+
 ### 예시 2
 **BEFORE**  
 ```abap
@@ -91,6 +95,7 @@ LT_TABLE = VALUE #( BASE LT_TABLE FOR LS_SELECT IN LT_SELECT
   ENDLOOP.
 ```
 &nbsp;
+
 **AFTER**  
 ```abap
   LT_TABLE = VALUE #( BASE LT_TABLE FOR LS_SELECT IN LT_SELECT
@@ -100,5 +105,5 @@ LT_TABLE = VALUE #( BASE LT_TABLE FOR LS_SELECT IN LT_SELECT
                         ( CORRESPONDING #( LS_TR ) ) ).
 ```
 > 이중 LOOP도 FOR IN으로 간결하게 가능하다.  
-> APPEND 할 필요 없이 알아서 된다.  
----
+> APPEND 할 필요 없이 알아서 된다.
+
