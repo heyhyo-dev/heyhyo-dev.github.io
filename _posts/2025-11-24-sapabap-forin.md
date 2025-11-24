@@ -24,7 +24,6 @@ last_modified_at: 2025-11-24
 - 기존 LOOP AT 구문과 흡사하다.
 - 내부 테이블을 순회(iteration) 하여 새로운 값(구조, 테이블, 필드, 문자열 등)을 생성하는 표현식 기반 반복문
 - VALUE, COND, REDUCE 등과 함께 사용된다.
-- 
 &nbsp;
 &nbsp;
 
