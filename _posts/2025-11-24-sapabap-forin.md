@@ -54,7 +54,7 @@ FOR idx = 1 WHILE idx <= 10
 
   ENDLOOP.
   
-	 LT_TABLE = CORRESPONDING #( LT_FILE ).
+  LT_TABLE = CORRESPONDING #( LT_FILE ).
 ```  
 &nbsp;
 
@@ -70,7 +70,7 @@ FOR idx = 1 WHILE idx <= 10
 **AFTER 2**  
 ```abap
 LT_TABLE = VALUE #( BASE LT_TABLE FOR LS_SELECT IN LT_SELECT
-                        ( CORRESPONDING #( LS_SELECT ) ) ).
+                   ( CORRESPONDING #( LS_SELECT ) ) ).
 ```  
 &nbsp;
 &nbsp;
