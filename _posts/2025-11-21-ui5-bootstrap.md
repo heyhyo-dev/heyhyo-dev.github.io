@@ -23,7 +23,7 @@ last_modified_at: 2025-11-21
 
 > **시작하기에 앞서 ...**   
 > UI5는 BAS(Business Application Studio)로, VSCode를 사용한다.   
-> Entry Point가 될 수 있는 건  index.html 혹은 component.js다.
+> Entry Point가 될 수 있는 건  index.html 혹은 component.js다.  
 > 오늘은 index.html의 bootstrap을 알아보자.
 
 ---
