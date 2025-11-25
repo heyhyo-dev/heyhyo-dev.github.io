@@ -91,8 +91,8 @@ sap.ui.define(["sap/ui/core/mvc/XMLView"], function(XMLView) {
 ---
 
 ## View Controllers
-> 화면에서 발생한 이벤트를 수행하는 게 Controller. View와 1대1 /N대1 관계.  
-> 이름이 같아서 짝이 아니라, view 코드에서 controllerName에 등록해줘야 짝이 되는 것!
+화면에서 발생한 이벤트를 수행하는 게 Controller. View와 1대1 /N대1 관계.  
+이름이 같아서 짝이 아니라, view 코드에서 controllerName에 등록해줘야 짝이 되는 것!
 
 &nbsp;  
 
