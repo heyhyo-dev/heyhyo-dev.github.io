@@ -18,11 +18,13 @@ last_modified_at: 2025-11-25
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/60f36cd6-ed31-43e3-954b-f31b8c1b260d" />
 
+---
 
 # Model View Controller (MVC)
 <img width="1288" height="660" alt="image" src="https://github.com/user-attachments/assets/e04d0a56-b996-4218-8609-01765bfde944" />
 
-* 화면(UI)과 로직(Controller)과 데이터(Model)를 분리해서 개발하는 아키텍처 패턴.  
+* 화면(UI)과 로직(Controller)과 데이터(Model)를 분리해서 개발하는 아키텍처 패턴.
+  
 |구성|역할|SAPUI5 예|
 |------|---|---|
 |Model|데이터 관리|JSONModel, ODataModel|
