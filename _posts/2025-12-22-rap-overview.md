@@ -7,7 +7,7 @@ categories:
 tags:
   - [RAP]
 
-permalink: /rap/1/
+permalink: /rap/overview/
 
 toc: true
 toc_sticky: true
