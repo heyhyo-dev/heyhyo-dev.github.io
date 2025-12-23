@@ -7,13 +7,13 @@ categories:
 tags:
   - [RAP]
 
-permalink: /rap/2/
+permalink: /rap/architecture/
 
 toc: true
 toc_sticky: true
 
-date: 2025-12-22
-last_modified_at: 2025-12-22
+date: 2025-12-23
+last_modified_at: 2025-12-23
 ---
 
 # RAP 3단계 아키텍처
