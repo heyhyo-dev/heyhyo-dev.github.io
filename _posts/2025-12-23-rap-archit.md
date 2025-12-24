@@ -16,10 +16,7 @@ date: 2025-12-23
 last_modified_at: 2025-12-23
 ---
 
-# RAP 3단계 아키텍처
-<img width="2816" height="1536" alt="1766468074635" src="https://github.com/user-attachments/assets/22f8c4ac-0e01-4bb8-bd5c-b7f7686308ce" />
-
-
+# BO(Business Object) 소개
 > **BO(Business Object)란?**
 > 비즈니스 관점에서 “하나의 업무 단위”  
 > e.g. Sales Order(판매오더): 헤더 + 아이템 + 스케줄라인 + 파트너 + 가격조건  
@@ -37,6 +34,11 @@ last_modified_at: 2025-12-23
 > 1. Data Model (CDS Entities): "무엇을 저장하는가?" (구조)  
 > 2. Behavior Definition (BDEF): "무엇을 할 수 있는가?" (선언)  
 > 3. Behavior Implementation (ABAP Class): "실제로 어떻게 돌아가는가?" (로직 구현)  
+
+---
+
+# RAP 3단계 아키텍처
+<img width="2816" height="1536" alt="1766468074635" src="https://github.com/user-attachments/assets/22f8c4ac-0e01-4bb8-bd5c-b7f7686308ce" />
 
 ---
 
