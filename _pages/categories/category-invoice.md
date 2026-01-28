@@ -1,5 +1,5 @@
 ---
-title: "Invocie"
+title: "Invoice"
 layout: category
 permalink: /categories/invoice/
 author_profile: true
