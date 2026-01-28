@@ -3,7 +3,7 @@ title: "NEW ABAP"
 layout: category
 permalink: /categories/newabap/
 author_profile: true
-taxonomy: NEW ABAP
+taxonomy: newabap
 sidebar:
   nav: "categories"
 ---
