@@ -17,18 +17,46 @@ main:
 
 # sidebar navigation (categories)
 # 2022.02.15 sidebar update : simple ver.
+# categories:
+#  - title: "SAP ABAP"
+#    url: /categories/sapabap/
+#  - title: "UI5"
+#    url: /categories/ui5/
+#  - title: "RAP"
+#    url: /categories/rap/
+#  - title: "MM"
+#    url: /categories/mm/
+#  - title: "SD"
+#    url: /categories/sd/
+
 categories:
   - title: "SAP ABAP"
-    url: /categories/sapabap/
-  - title: "UI5"
-    url: /categories/ui5/
-  - title: "RAP"
-    url: /categories/rap/
+    children:
+      - title: "ABAP"
+        url: /categories/abap/
+      - title: "NEW ABAP"
+        url: /categories/newabap/
+
   - title: "MM"
-    url: /categories/mm/
+    children:
+      - title: "Purchasing"
+        url: /categories/purchasing/
+      - title: "Mat. Planning"
+        url: /categories/matplan/
+      - title: "Inventory"
+        url: /categories/inventory/
+      - title: "Invoice"
+        url: /categories/invoice/
+
   - title: "SD"
-    url: /categories/sd/
+    children:
+      - title: "SD"
+        url: /categories/sd/
 
-
-
+  - title: "BTP"
+    children:
+      - title: "RAP"
+        url: /categories/rap/
+      - title: "UI5"
+        url: /categories/ui5/
 
