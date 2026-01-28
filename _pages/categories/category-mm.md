@@ -1,12 +1,9 @@
 ---
-title: "MM"
+title: "MM Overview"
 layout: category
-permalink: /categories/mm/
+permalink: /categories/mmview/
 author_profile: true
-taxonomy: MM
+taxonomy: MM Overview
 sidebar:
   nav: "categories"
 ---
-
-
-
