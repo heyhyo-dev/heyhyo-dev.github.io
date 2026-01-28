@@ -39,6 +39,8 @@ categories:
 
   - title: "MM"
     children:
+      - title: "MM Overview"
+        url: /categories/mmview/
       - title: "Purchasing"
         url: /categories/purchasing/
       - title: "Mat. Planning"
@@ -50,8 +52,10 @@ categories:
 
   - title: "SD"
     children:
-      - title: "SD"
-        url: /categories/sd/
+     - title: "SD Overview"
+        url: /categories/sdview/
+#      - title: "SD"
+#        url: /categories/sd/
 
   - title: "BTP"
     children:
@@ -59,4 +63,5 @@ categories:
         url: /categories/rap/
       - title: "UI5"
         url: /categories/ui5/
+
 
