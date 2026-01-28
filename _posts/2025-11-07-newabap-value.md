@@ -2,10 +2,10 @@
 title: "[New ABAP] VALUE #( )"
 excerpt: "VALUE #( )"
 
-categories: [sap abap, newabap]
+categories:
+  - newabap
 tags:
   - [ABAP, "VALUE #"]
-
 
 permalink: /newabap/value/
 
@@ -36,6 +36,7 @@ last_modified_at: 2025-11-07
 
 ### etc.
 - 보통 BASE #, CORRESPONDING #, FOR IN 등과 같이 쓰인다.
+
 
 
 
