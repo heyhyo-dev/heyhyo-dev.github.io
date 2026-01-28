@@ -3,11 +3,11 @@ title: "[New ABAP] BASE/CORRESPONDING #"
 excerpt: "BASE/CORRESPONDING #"
 
 categories:
-  - SAP ABAP
+  - NEW ABAP
 tags:
   - [ABAP, BASE, CORRESPONDING]
 
-permalink: /sap-abap/basecor/
+permalink: /newabap/basecor/
 
 toc: true
 toc_sticky: true
