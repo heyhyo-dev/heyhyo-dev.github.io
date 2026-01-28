@@ -3,7 +3,8 @@ title: "MM Overview"
 layout: category
 permalink: /categories/mmview/
 author_profile: true
-taxonomy: MM Overview
+taxonomy: mmview
 sidebar:
   nav: "categories"
 ---
+
