@@ -1,13 +1,9 @@
 ---
-title: "SAP ABAP"
+title: "ABAP"
 layout: category
-permalink: /categories/sapabap/
+permalink: /categories/abap/
 author_profile: true
-taxonomy: SAP ABAP
+taxonomy: ABAP
 sidebar:
   nav: "categories"
 ---
-
-
-
-
