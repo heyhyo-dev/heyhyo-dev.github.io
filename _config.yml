@@ -289,10 +289,7 @@ defaults:
 #   categories:
 #     output: false
 
-collections:
-  pages:
-    output: true
-    permalink: /:path/
+
 
 
 
