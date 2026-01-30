@@ -22,7 +22,7 @@ categories:
     children:
       - title: "ABAP"
         url: /categories/abap/
-      - title: "NEW ABAP"
+      - title: "NewABAP"
         url: /categories/newabap/
 
   - title: "MM"
@@ -51,3 +51,4 @@ categories:
         url: /categories/rap/
       - title: "UI5"
         url: /categories/ui5/
+
