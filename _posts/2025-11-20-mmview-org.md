@@ -3,7 +3,7 @@ title: "[MM] 조직"
 excerpt: "MM 조직 알아보기"
 
 categories:
-  - mmview
+  - MM_Overview
 tags:
   - [MM]
 
@@ -44,6 +44,7 @@ MM 고유의 조직
 ### <mark>Purchasing Group</mark>
 Buyer (구매담당자/집합체) <br/>
 MM 고유의 조직
+
 
 
 
