@@ -3,11 +3,11 @@ title: "[New ABAP] FOR ... IN "
 excerpt: "FOR IN 구문"
 
 categories:
-  - SAP ABAP
+  - NewABAP
 tags:
   - [ABAP, FOR IN]
 
-permalink: /sap-abap/forin/
+permalink: /newabap/forin/
 
 toc: true
 toc_sticky: true
