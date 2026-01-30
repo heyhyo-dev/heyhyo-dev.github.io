@@ -54,7 +54,8 @@ blocked를 release하여 사용 가능 재고로 변경됨.
 
 &nbsp;
 
-### 103, 105 MMBE 흐름 전개
+### 103, 105 MMBE 흐름 전개  
+
 1) 구매 오더 - Z자재 100개 낸 상태  
 <img width="668" height="87" alt="image" src="https://github.com/user-attachments/assets/d5b653d0-0583-490b-b97a-8e942e6afa55" />
 
