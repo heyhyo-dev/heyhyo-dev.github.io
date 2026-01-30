@@ -66,7 +66,7 @@ e.g. 정유 공장: 휘발유(Main) 뽑고 남은 아스팔트(By-product) 입�
 ### 451 반품 from Customer 
 Customer returns (고객 반품)  
 고객이 반품한 물건을 MM 모듈에서 직접 잡을 때. (SD 모듈의 Delivery 없이)  
-**추가 필수값 : Customer**
+**추가 필수값 : Customer**  
 이 재고는 **'가용 재고(Unrestricted)'**가 아니라 **'반품 재고(Returns)'**로 잡힌다.  
 나중에 453번을 써서 가용 재고로 풀어줘야 사용할 수 있다.
 
