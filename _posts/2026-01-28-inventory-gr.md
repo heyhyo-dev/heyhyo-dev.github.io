@@ -1,5 +1,5 @@
 ---
-title: "[MM] Inventory_이동유형 입고 1편"
+title: "[MM/Inventory] 이동유형 입고 1편"
 excerpt: "MM 입고 이동유형 알아보기 - Unplanned"
 
 categories:
