@@ -1,9 +1,9 @@
 ---
-title: "NEW ABAP"
+title: "NewABAP"
 layout: category
 permalink: /categories/newabap/
 author_profile: true
-taxonomy: New ABAP
+taxonomy: NewABAP
 sidebar:
   nav: "categories"
 ---
