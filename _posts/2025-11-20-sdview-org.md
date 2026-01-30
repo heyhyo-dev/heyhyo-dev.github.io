@@ -1,13 +1,13 @@
 ---
-title: "[SD] 조직"
+title: "[SD/Overview] 조직"
 excerpt: "SD 조직 알아보기"
 
 categories:
-  - SD
+  - SD_Overview
 tags:
   - [SD]
 
-permalink: /sd/org/
+permalink: /sdview/org/
 
 toc: true
 toc_sticky: true
