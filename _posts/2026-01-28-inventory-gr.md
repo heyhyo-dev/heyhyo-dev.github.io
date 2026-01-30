@@ -31,6 +31,8 @@ Action과 참조문서는 이동유형마다 다르게 설정한다.
 > 필수값 : 자재, 수량, 플랜트, 창고, ITEM OK 체크박스  
 > XX1 : 가용재고, XX3 : QI재고, XX5 : Blocked재고    
 
+&nbsp;
+
 ### 561 기초재고  (561, 563, 565)  
 Initial entry of stock balances into unrestricted-use stock (기초 재고 초기 입고)  
 
@@ -39,19 +41,27 @@ Receipt w/o purchase order into unrestricted-use stock (구매 오더 없는 입
 
 > 501 vs. 561  
 > 561: 기존 시스템(Legacy)에 있던 재고 데이터를 SAP로 데이터 마이그레이션, 첫 오픈 시점.  
-> 501: 시스템 운영 중에 구매 부서의 정식 발주(PO) 없이 외부에서 물건이 들어왔을 때.  
+> 501: 시스템 운영 중에 구매 부서의 정식 발주(PO) 없이 외부에서 물건이 들어왔을 때.
+
+&nbsp;
 
 ### 511 무상입고
 Receipt of delivery without charge (무상입고)
 **추가 필수값 : 벤더, 텍스트**  
 
+&nbsp;
+
 ### 521 Without Prod.Order (521, 523, 525)  
 Receipt w/o production order into unrestr.-use stock (생산 오더 없는 입고)
+
+&nbsp;
 
 ### 531 부산물 ( By-Product )  
 Receipt of by-product into unrestricted-use stock (부산물 입고)  
 주산품(Main Product)을 만들다가 **부수적으로 튀어나온 찌꺼기인데 돈이 되는 것(부산물)**을 입고 잡을 때  
 e.g. 정유 공장: 휘발유(Main) 뽑고 남은 아스팔트(By-product) 입고.  
+
+&nbsp;
 
 ### 451 반품 from Customer 
 Customer returns (고객 반품)  
