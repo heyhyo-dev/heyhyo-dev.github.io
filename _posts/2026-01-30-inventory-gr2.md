@@ -68,7 +68,7 @@ blocked를 release하여 사용 가능 재고로 변경됨.
    : 드디어 가용재고로 0001 창고에 입고된다. 온오더스탁과 블락스탁 모두 사라진다.  
 <img width="383" height="82" alt="image" src="https://github.com/user-attachments/assets/370e0b1b-3397-4fbc-981e-9908d7b3395d" />
 
-4) 105를 통해 생성된 회계문서 확인
++a) 105를 통해 생성된 회계문서 확인
 <img width="564" height="259" alt="image" src="https://github.com/user-attachments/assets/ee14455b-9e0f-4f05-b2d4-6f3d10640cbb" />
 
 &nbsp;
