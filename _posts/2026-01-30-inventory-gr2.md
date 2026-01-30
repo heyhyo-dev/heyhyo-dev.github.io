@@ -28,22 +28,31 @@ Action과 참조문서는 이동유형마다 다르게 설정한다.
 = Planned라고도 부른다. 참조문서로 입고 처리하는 이동유형들.   
 
 ### 101 입고
-> A01 Goods Receipt |	R01 Purchase Order, R08 Order  
+> A01 Goods Receipt |	R01 Purchase Order, R08 Order
+
 GR goods receipt - 구매 오더 입고 혹은 생산 오더 입고  
 
+&nbsp;
+
 ### 103 블락 재고로 입고
-> A01 Goods Receipt | R01 Purchase Order  
+> A01 Goods Receipt | R01 Purchase Order
+
 Goods receipt for purchase order into GR blocked stock  
 **non-valuated로 입고되므로 회계문서(전표) 미생성**
 물건은 왔지만, 전표는 안 끊음. 까다로운 검수가 끝나면 생성 가능.  
 그게 아래 105번 이동유형.  
 
+&nbsp;
+
 ### 105 릴리즈 블락 재고 - 가용 재고로 변경
 > A05 Release GR blocked stock | R02 Material Document  
+
 Release from GR blocked stock for purchase order  
 **valuated로 회계문서 생성**  
 blocked를 release하여 사용 가능 재고로 변경됨.  
 회계문서 생성된다.
+
+&nbsp;
 
 ### 103, 105 MMBE 흐름 전개
 1) 구매 오더 - Z자재 100개 낸 상태  
@@ -57,6 +66,7 @@ blocked를 release하여 사용 가능 재고로 변경됨.
    : 드디어 가용재고로 0001 창고에 입고된다. 온오더스탁과 블락스탁 모두 사라진다.  
 <img width="383" height="82" alt="image" src="https://github.com/user-attachments/assets/370e0b1b-3397-4fbc-981e-9908d7b3395d" />
 
+&nbsp;
 
 ### 107, 109 ( 103, 105와 반대 )
 107(valuated - 회계문서 생성) - 109(non-valuated - 회계문서 미생성)  
