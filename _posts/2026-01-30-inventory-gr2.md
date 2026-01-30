@@ -38,8 +38,9 @@ GR goods receipt - 구매 오더 입고 혹은 생산 오더 입고
 > A01 Goods Receipt | R01 Purchase Order
 
 Goods receipt for purchase order into GR blocked stock  
-**non-valuated로 입고되므로 회계문서(전표) 미생성**
-물건은 왔지만, 전표는 안 끊음. 까다로운 검수가 끝나면 생성 가능.  
+**non-valuated로 입고되므로 회계문서(전표) 미생성**  
+물건은 왔지만, 전표는 안 끊음.  
+까다로운 검수가 끝나면 생성 가능.    
 그게 아래 105번 이동유형.  
 
 &nbsp;
