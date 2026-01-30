@@ -1,5 +1,5 @@
 ---
-title: "[MM] 기준 정보 (Master Data)"
+title: "[MM/Overview] 기준 정보 (Master Data)"
 excerpt: "MM Master Data 알아보기"
 
 categories:
