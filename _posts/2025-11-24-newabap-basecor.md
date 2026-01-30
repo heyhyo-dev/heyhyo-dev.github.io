@@ -3,7 +3,7 @@ title: "[New ABAP] BASE/CORRESPONDING #"
 excerpt: "BASE/CORRESPONDING #"
 
 categories:
-  - Newabap
+  - NewABAP
 tags:
   - [ABAP, BASE, CORRESPONDING]
 
