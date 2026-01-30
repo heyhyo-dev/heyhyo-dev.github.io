@@ -15,20 +15,8 @@ main:
   # - title: "Categories"
   #   url: /categories/
 
-# sidebar navigation (categories)
-# 2022.02.15 sidebar update : simple ver.
-# categories:
-#  - title: "SAP ABAP"
-#    url: /categories/sapabap/
-#  - title: "UI5"
-#    url: /categories/ui5/
-#  - title: "RAP"
-#    url: /categories/rap/
-#  - title: "MM"
-#    url: /categories/mm/
-#  - title: "SD"
-#    url: /categories/sd/
 
+# sidebar navigation (categories)
 categories:
   - title: "SAP ABAP"
     children:
@@ -52,10 +40,10 @@ categories:
 
   - title: "SD"
     children:
-     - title: "SD Overview"
+      - title: "SD Overview"
         url: /categories/sdview/
-#      - title: "SD"
-#        url: /categories/sd/
+      # - title: "SD"
+      #   url: /categories/sd/
 
   - title: "BTP"
     children:
@@ -63,5 +51,3 @@ categories:
         url: /categories/rap/
       - title: "UI5"
         url: /categories/ui5/
-
-
