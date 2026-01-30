@@ -1,12 +1,13 @@
 ---
-title: "SD"
+title: "SD_Overview"
 layout: category
-permalink: /categories/sd/
+permalink: /categories/sdview/
 author_profile: true
-taxonomy: SD
+taxonomy: SD_Overview
 sidebar:
   nav: "categories"
 ---
+
 
 
 
