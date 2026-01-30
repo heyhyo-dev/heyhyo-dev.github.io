@@ -1,13 +1,13 @@
 ---
-title: "[SD] 기준 정보 (Master Data)"
+title: "[SD/Overview] 기준 정보 (Master Data)"
 excerpt: "SD Master Data 알아보기"
 
 categories:
-  - SD
+  - SD_Overview
 tags:
   - [SD]
 
-permalink: /sd/master/
+permalink: /sdview/master/
 
 toc: true
 toc_sticky: true
