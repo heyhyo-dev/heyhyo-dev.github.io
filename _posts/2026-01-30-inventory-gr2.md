@@ -57,14 +57,15 @@ blocked를 release하여 사용 가능 재고로 변경됨.
 
 ### 103, 105 MMBE 흐름 전개  
 
-1) 구매 오더 - Z자재 100개 낸 상태  
+1) 구매 오더 - Z자재 100개 낸 상태
+   
 <img width="668" height="87" alt="image" src="https://github.com/user-attachments/assets/d5b653d0-0583-490b-b97a-8e942e6afa55" />
 
-2) 구매 오더 기준 103으로 Blocked 재고로 입고  
+3) 구매 오더 기준 103으로 Blocked 재고로 입고  
    : GR Blocked 재고로 100개 잡혀있다. 실질적으로 0001 창고까지 입고되지는 않았다.  
 <img width="693" height="83" alt="image" src="https://github.com/user-attachments/assets/46052c08-ebd5-41f8-9cd6-3b6140d37a73" />
 
-3) 103에서 생성된 자재문서를 참고문서로 하여 105 - Release한다.  
+4) 103에서 생성된 자재문서를 참고문서로 하여 105 - Release한다.  
    : 드디어 가용재고로 0001 창고에 입고된다. 온오더스탁과 블락스탁 모두 사라진다.  
 <img width="383" height="82" alt="image" src="https://github.com/user-attachments/assets/370e0b1b-3397-4fbc-981e-9908d7b3395d" />
 
