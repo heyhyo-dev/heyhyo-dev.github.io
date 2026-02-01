@@ -39,7 +39,7 @@ Action과 참조문서는 이동유형마다 다르게 설정한다.
 ### 124 입고보류반품
 > A02 Return Delivery |	R02 Material Document
 
-Blocked 103의 반품 이동유형으로, **Reason for Movement** 필수로 입력해야 함.
+Blocked 103의 반품 이동유형으로, **Reason for Movement** 필수로 입력해야 함.  
 GR Blocked Stock이 감소한다.  
 입고 보류 상태에서 반품. ( 애초에 우리 자산으로 잡은 적 없으니 회계전표 없이 수량만 정리)  
 
